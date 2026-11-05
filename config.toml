@@ -1,0 +1,14 @@
+# 相对路径以本配置文件所在目录为起点，也支持绝对路径与 ~/。
+download_dir = "downloads"
+attempts = 2
+retry_delay = 5
+request_retries = 2
+timeout = 30
+image_threads = 4
+
+# 默认使用与原 jmcomic 2.7.9 相同的接口配置，运行时自动更新 API 域名。
+# 手动指定 API 域名时，请同时关闭自动更新。
+# auto_update_domains = false
+# api_domains = ["https://your-api-host"]
+# image_domains = ["https://your-image-host"]
+# app_version = "2.1.7"

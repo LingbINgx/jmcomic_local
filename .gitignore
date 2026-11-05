@@ -1,1 +1,4 @@
 /target
+/downloads/
+/data/
+.DS_Store
